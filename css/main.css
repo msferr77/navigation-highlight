@@ -14,18 +14,19 @@ header {
   text-align: center;
   color: #b20953;
   background-color: #ffe500;
-  padding: .5em;
+  padding: .5em 0;
+  margin-top: .3em;
 }
 
 h1 {
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   margin: 0;
   text-align: center;
   font-size: 3rem;
 }
 
 h2 {
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 1.875rem;
 }
@@ -34,18 +35,18 @@ body {
   margin: 0;
 }
 
-.berries {
+.nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
   vertical-align: middle;
 }
 
-.berries li {
+.nav li {
   display: inline-block;
 }
 
-.berries a {
+.nav a {
   display: inline-block;
   padding: .2em .5em .3em;
   border-radius: 4px;
@@ -56,7 +57,7 @@ body {
   font-size: 1.125rem;
 }
 
-.berries a:hover {
+.nav a:hover {
   background-color: #cc1465;
   color: #fff;
 }
@@ -77,6 +78,6 @@ footer {
   padding: .75em;
 }
 
-.berries .current {
+.nav .current {
   background-color: #cc1465;
 }
