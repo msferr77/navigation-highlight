@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #ffe500;
+  background-color: #fff;
   font-family: Georgia, serif;
+  color: #2f2d13;
 }
 
 *, *::before, *::after {
@@ -11,46 +12,65 @@ html {
 
 header {
   text-align: center;
-  color: #fff;
-  background-color: #79756f;
-  border-top: 3px solid #595652;
-  border-bottom: 3px solid #595652;
+  color: #b20953;
+  background-color: #ffe500;
+  padding: .5em;
 }
 
 h1 {
   font-family: Sigmar One, sans-serif;
-  margin: .3em .3em auto;
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: Sigmar One, sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
 }
 
 body {
   margin: 0;
+}
+
+.berries {
+  margin: 0;
   padding: 0;
-}
-
-.planets {
-  text-align: center;
-  vertical-align: middle;
   list-style-type: none;
-  margin: auto;
+  vertical-align: middle;
 }
 
-.planets li {
+.berries li {
   display: inline-block;
-  margin: .3em auto;
-  padding: 0 0 .5em;
 }
 
-.planets a {
-  text-align: center;
+.berries a {
   display: inline-block;
-  padding: .5em .75em;
-  background-color: #713837;
-  color: #fff;
-  text-decoration: none;
+  padding: .2em .5em .3em;
   border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #b2a212;
+  color: #fff;
+  font-size: 1.125rem;
 }
 
-.planets a:hover {
-  background-color: #f33;
+.berries a:hover {
+  background-color: #cc1465;
   color: #fff;
 }
+
+main {
+  padding: .75em;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  font-size: .75rem;
+  padding: .75em;
+}
+
+*Paddings:* `.2em .5em .3em`, `.75em`, `.75em`
+- *Margins:* `.3em`
